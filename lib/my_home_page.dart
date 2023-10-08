@@ -39,7 +39,7 @@ class _MyHomePageState extends State<MyHomePage> {
           setState(() {
             _currentIndex = index;
           });
-          if (index == 1) {
+          if (index == 3) {
             _toggleRegistration();
           }
         },
