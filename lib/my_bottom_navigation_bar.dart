@@ -15,7 +15,7 @@ class MyBottomNavigationBar extends StatelessWidget {
         FluidNavBarIcon(icon: Icons.home, backgroundColor: Colors.pink, extras: {'label': 'Inicio'}),
       
         FluidNavBarIcon(icon: Icons.apps_sharp, backgroundColor: Colors.pink, extras: {'label': 'Otra Página'}),
-        FluidNavBarIcon(icon: Icons.shopping_cart_rounded, backgroundColor: Colors.pink, extras: {'label': 'Perfil'}),
+        FluidNavBarIcon(icon: Icons.shopping_cart_rounded, backgroundColor: Colors.pink, extras: {'label': 'Categoria'}),
         
         FluidNavBarIcon(icon: Icons.person, backgroundColor: Colors.pink, extras: {'label': 'Carrito'}),
       ],

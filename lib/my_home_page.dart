@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:untitled/email/screen/register_screen.dart';
+import 'package:untitled/email/screen/rEmailegister_screen.dart';
 import 'package:untitled/my_bottom_navigation_bar.dart';
 
 
@@ -27,10 +27,10 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
 
       
-      appBar: null,
+
       body:
       
-      
+    
       
        _isRegisterScreenVisible ? _registerScreen : buildMainContent(),
       bottomNavigationBar: MyBottomNavigationBar(
@@ -42,6 +42,7 @@ class _MyHomePageState extends State<MyHomePage> {
           if (index == 3) {
             _toggleRegistration();
           }
+          
         },
       ),
 
@@ -49,6 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
    
     );
+
   }
 
   Widget buildMainContent() {
